@@ -1,0 +1,184 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.logo {
+    width: 230px;
+    height: 230px;
+    margin:10px auto;
+	display:block;
+}
+.header{
+    background-color: #005E90;
+}
+.titulo {
+    text-align: center;
+    font-size: xx-large;
+    color:#ffffff;
+}
+.tabla {
+    height: 300px;
+
+}
+td{
+    width: 100px;
+}
+th{
+    width: 50px;
+}
+.boton {
+   justify-content: center;
+    height: 31px;
+    width: 220px;
+    margin:10px auto;
+	display:flex;
+    padding: 10px;
+}
+.btn1{ 
+    width: 150px;
+    height: 40px;
+    font-size: large;
+    margin-right: 15px;
+}
+.btn2{
+    height: 40px;
+    padding: 9px;
+    font-size: large;
+}
+.msg{
+    text-align: center;
+}
+.color1{
+    background-color: #005E90;
+    width: 50px;
+}
+.color{
+    background-color:#046ba3;
+}
+.footer{
+    background-color: #005E90;
+}
+.f {
+    width: 40px;
+}
+.t {
+    width: 42px;
+}
+.y {
+    width: 34px;
+}
+.i {
+    width: 35px;
+}
+.l {
+    width: 40px;
+}
+.footer-social{
+    background-color:#333333;
+    text-align: center;
+}
+.acceso{
+    width: 120px;
+}
+.cruch{
+    width: 60px;
+}
+
+.g9{
+    width: 100px;
+}
+
+.aur{
+    width: 90px;
+}
+
+.cruv{
+    width: 200px;
+}
+
+.reuna{
+    width: 120px;
+}
+
+.universia{
+    width: 180px;
+}
+
+.footer-social-lista{
+    text-align: right;
+    padding-right: 0.5%;
+}
+
+.usmCL-logo{
+    text-align: right;
+}
+
+.usmCL{
+    width: 215px;
+}
+.footer-titulo{
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+ul{
+    
+    list-style: none;
+    padding-left: 90px;
+}
+.footer-main {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-item {
+    line-height: 1.5;
+    padding: 10px;
+    min-width: 5px;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Montserrat",sans-serif;
+}
+.container{
+    flex:1;
+}
+@media only screen and (min-width:477px){
+    .footer-main{
+        justify-content: space-around;
+    }
+}
+@media only screen and (min-width:1240){
+    .footer-main{
+        justify-content: space-evenly;
+    }
+}
+@media screen and(max-width:600px){
+    table{
+        width:100%;
+    }
+    thead{
+        display:none;
+    }
+    tr:nth-of-type(2n){
+        background-color:inherit;
+    } 
+    tr td:first-child{
+        background: #f0f0f0;
+        font-weight: bold;
+        font-size: 1.3em;
+    }
+    tbody td{
+        display: block;
+        text-align: center;
+    }
+    tbody td:before{
+        content: attr(data-th);
+        display: block;
+        text-align: center;
+    }
+}
